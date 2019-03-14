@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\dell\source\repos\rectangle and object\rectangle and object\source.cpp(98): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\dell\source\repos\rectangle and object\rectangle and object\source.cpp(99): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\dell\source\repos\rectangle and object\rectangle and object\source.cpp(100): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\dell\source\repos\rectangle and object\rectangle and object\source.cpp(101): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+c:\users\dell\source\repos\rectangle and object\rectangle and object\source.cpp(154): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Rectangle and Object.vcxproj -> C:\Users\DELL\source\repos\Rectangle and Object\Debug\Rectangle and Object.exe
