@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{eed16ca9-816f-4b01-b7e1-03df983d9dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Components">
+      <UniqueIdentifier>{3eec6934-8ec3-4b0b-b53e-3b72487c7d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Controllers">
+      <UniqueIdentifier>{0734a11b-30bd-40c9-a2ca-12dfabe8f186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scenes">
+      <UniqueIdentifier>{e0c66414-d333-4fbe-9fb8-5f3169dea2ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Framework\Objects">
+      <UniqueIdentifier>{150de809-2636-4172-8075-ca220274dfd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Objects\Ninja">
+      <UniqueIdentifier>{1ae6daa3-9671-4c41-aa59-48877900f33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Objects\Ninja\NinjaState">
+      <UniqueIdentifier>{eeb4d8bf-7ee8-4727-ae98-c2cd9e7ca525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{58e42077-fe5e-4497-8ae0-333d44613389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Map">
+      <UniqueIdentifier>{84072455-cfe1-45c5-ae9b-611296b80f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Grid">
+      <UniqueIdentifier>{ed006add-3c93-4268-a197-2ab22f9cce47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Objects\Enemies">
+      <UniqueIdentifier>{e40398d4-ba58-42df-9ce7-0c57cef0d6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Objects\Enemies\LeoPard">
+      <UniqueIdentifier>{d5f2a351-2df3-44ac-aa64-a6063c30edba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Objects\Enemies\Bat">
+      <UniqueIdentifier>{a1e8a9f6-5478-4f1a-9404-a217cde70d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Objects\Enemies\Bird">
+      <UniqueIdentifier>{9aa745a8-5301-4989-aebe-37ccef902df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Objects\Enemies\Butterfly">
+      <UniqueIdentifier>{6bab6aa2-81f6-4033-b99f-259ba0c0cc18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Objects\Enemies\Knife">
+      <UniqueIdentifier>{13c3c3cd-b377-479c-b5a6-5294dbd24b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Objects\Enemies\Gun">
+      <UniqueIdentifier>{b1ec7dbd-19af-4c50-b749-6b1e95713bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Objects\Enemies\Zombie">
+      <UniqueIdentifier>{5bd59405-dc24-4401-b736-da848be842bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGlobal.h">
+      <Filter>Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Framework\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneDemo.h">
+      <Filter>Framework\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Ninja.h">
+      <Filter>Framework\Objects\Ninja</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaData.h">
+      <Filter>Framework\Objects\Ninja</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Framework\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaAnimations.h">
+      <Filter>Framework\Objects\Ninja</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaSittingState.h">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaRunningState.h">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaJumpingState.h">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Framework\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaIdlingState.h">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaState.h">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaFallingState.h">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledMap.h">
+      <Filter>Framework\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Framework\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaAttackingState.h">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaAttackSittingState.h">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaDartingState.h">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Framework\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Framework\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAnimation.h">
+      <Filter>Framework\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="LeoPard.h">
+      <Filter>Framework\Objects\Enemies\LeoPard</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat2.h">
+      <Filter>Framework\Objects\Enemies\Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird2.h">
+      <Filter>Framework\Objects\Enemies\Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="Butterfly.h">
+      <Filter>Framework\Objects\Enemies\Butterfly</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyKnife.h">
+      <Filter>Framework\Objects\Enemies\Knife</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGun.h">
+      <Filter>Framework\Objects\Enemies\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyZombie.h">
+      <Filter>Framework\Objects\Enemies\Zombie</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGlobal.cpp">
+      <Filter>Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Framework\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneDemo.cpp">
+      <Filter>Framework\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaData.cpp">
+      <Filter>Framework\Objects\Ninja</Filter>
+    </ClCompile>
+    <ClCompile Include="Ninja.cpp">
+      <Filter>Framework\Objects\Ninja</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Framework\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Framework\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaAnimations.cpp">
+      <Filter>Framework\Objects\Ninja</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaSittingState.cpp">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaRunningState.cpp">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaJumpingState.cpp">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaIdlingState.cpp">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaState.cpp">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaFallingState.cpp">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledMap.cpp">
+      <Filter>Framework\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Framework\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaAttackingState.cpp">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaAttackSittingState.cpp">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaDartingState.cpp">
+      <Filter>Framework\Objects\Ninja\NinjaState</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Framework\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Framework\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAnimation.cpp">
+      <Filter>Framework\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="LeoPard.cpp">
+      <Filter>Framework\Objects\Enemies\LeoPard</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat2.cpp">
+      <Filter>Framework\Objects\Enemies\Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird2.cpp">
+      <Filter>Framework\Objects\Enemies\Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="Butterfly.cpp">
+      <Filter>Framework\Objects\Enemies\Butterfly</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyKnife.cpp">
+      <Filter>Framework\Objects\Enemies\Knife</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGun.cpp">
+      <Filter>Framework\Objects\Enemies\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyZombie.cpp">
+      <Filter>Framework\Objects\Enemies\Zombie</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
