@@ -7,7 +7,7 @@ public:
 	EnemyAnimation();
 	~EnemyAnimation();
 
-	enum eNinjaStates
+	enum eEnemyStates
 	{
 		Idling,
 		Running,
@@ -15,9 +15,9 @@ public:
 
 	};
 
-	void AddAnimation(eNinjaStates state, const char* filePath, int totalFrame, int rows, int columns, float timePerFrame = 0.1f, D3DCOLOR colorKey = NULL);
+	void AddAnimation(eEnemyStates state, const char* filePath, int totalFrame, int rows, int columns, float timePerFrame = 0.1f, D3DCOLOR colorKey = NULL);
 	EnemyAnimation* GetInstance();
-	unordered_map<eNinjaStates, Animation*> mAni;
+	unordered_map<eEnemyStates, Animation*> mAni;
 	//int x = 0;
 private:
 

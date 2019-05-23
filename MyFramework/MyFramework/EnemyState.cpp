@@ -1,12 +1,12 @@
-#include "EnemyState.h"
-
-
-
-EnemyState::EnemyState()
-{
-}
-
-
-EnemyState::~EnemyState()
-{
-}
+//#include "EnemyState.h"
+//
+//
+//
+//EnemyState::EnemyState()
+//{
+//}
+//
+//
+//EnemyState::~EnemyState()
+//{
+//}

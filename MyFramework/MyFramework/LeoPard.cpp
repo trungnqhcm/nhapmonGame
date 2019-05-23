@@ -1,4 +1,5 @@
 #include "LeoPard.h"
+#include "EnemyAnimation.h"
 
 
 
@@ -6,10 +7,10 @@ LeoPard::LeoPard()
 {
 	leopardAni = new Animation("Resources/Enemy1/leopard.png",2,1,2,0.2);
 
-	listAni = new NinjaAnimations();
-	// Khoi tao animation
-	listAni->GetInstance()->AddAnimation(NinjaAnimations::Idling, "Resources/Ninja/ninja_stand.png", 1, 1, 1);
-	listAni->GetInstance()->AddAnimation(NinjaAnimations::Running, "Resources/Ninja/ninja_run.png", 3, 1, 3);
+	//leoparlistAni = new EnemyAnimation();
+	//// Khoi tao animation
+	//listAni->GetInstance()->AddAnimation(NinjaAnimations::Idling, "Resources/Ninja/ninja_stand.png", 1, 1, 1);
+	//listAni->GetInstance()->AddAnimation(NinjaAnimations::Running, "Resources/Ninja/ninja_run.png", 3, 1, 3);
 }
 
 
