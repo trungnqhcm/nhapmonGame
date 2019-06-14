@@ -11,7 +11,7 @@ SceneGame::SceneGame(void) : Scene(ESceneState::Game_Scene)
 	_levelNow = 1;
 	_loadLevel = false;
 	_score = 0;
-	_lifes = 3;
+	_lifes = 10;
 }
 
 void SceneGame::LoadLevel(int level)
@@ -24,19 +24,11 @@ void SceneGame::LoadLevel(int level)
 		camera->viewport.y = 420;
 		//camera->viewport.x = 1023;
 		bg = new Background(level);
-		ryu = new Ryu(60, 400);
+		ryu = new Ryu(200, 140);
 	}
 	break;
+	
 	case 2:
-	{
-		camera->viewport.y = 420;
-		//camera->viewport.x = 1023;
-		bg = new Background(level);
-		//ryu->_action = Action::Idle;
-		ryu = new Ryu(2085, 300);
-
-	}
-	break;
 	case 3:
 	{
 		camera->viewport.y = 420;
@@ -66,15 +58,6 @@ void SceneGame::LoadStage(int level)
 	}
 	break;
 	case 2:
-	{
-		qGameObject = new QGameObject("Resources\\Maps\\Stage3.2-GameObj.txt");
-		if (!isLoadStage)
-		{
-			grid->addObject(qGameObject->_staticObject);
-			grid->addObject(qGameObject->_dynamicObject);
-		}
-	}
-	break;
 	case 3:
 	{
 		qGameObject = new QGameObject("Resources\\Maps\\Stage3.3-GameObj.txt");
@@ -145,22 +128,11 @@ void SceneGame::ProcessInput(int keyCode)
 	switch (keyCode)
 	{
 	case DIK_RIGHT:
-	case DIK_D:
 		ryu->TurnRight();
 		break;
 	case DIK_LEFT:
-	case DIK_A:
 		ryu->TurnLeft();
-		break;
-	case DIK_UP:
-	case DIK_W:
-		ryu->Climb(true);
-		break;
-	case DIK_DOWN:
-	case DIK_S:
-		ryu->Climb(false);
-		break;
-	
+		break;	
 	default:
 		ryu->Stop();
 		break;
@@ -189,13 +161,13 @@ void SceneGame::OnKeyDown(int KeyCode)
 {
 	switch (KeyCode)
 	{
-	case DIK_J:
+	case DIK_Z:
 		ryu->Jump();
 		break;
-	case DIK_K:
+	case DIK_X:
 		ryu->Attack(false);
 		break;
-	case DIK_L:
+	case DIK_DOWN:
 		ryu->Sit();
 		break;
 	}

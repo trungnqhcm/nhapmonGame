@@ -5,14 +5,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="Frameworks">
       <UniqueIdentifier>{1d9918db-67d9-46d2-a963-c30428d0b797}</UniqueIdentifier>
     </Filter>
@@ -22,14 +14,14 @@
     <Filter Include="GameObject\Enemy">
       <UniqueIdentifier>{c9094ab1-ee0b-4271-a398-2e5b64507548}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GameObject\Player">
-      <UniqueIdentifier>{f88baf5f-7b5a-4ce9-ac95-1faf1c1710e7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="GameObject\Objects">
       <UniqueIdentifier>{49b7036c-19fa-44a5-b355-d842cd078022}</UniqueIdentifier>
     </Filter>
     <Filter Include="Controller">
       <UniqueIdentifier>{a1eb7eb6-7d6c-4453-b1da-5678a81583ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{f88baf5f-7b5a-4ce9-ac95-1faf1c1710e7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -58,7 +50,7 @@
       <Filter>Controller</Filter>
     </ClCompile>
     <ClCompile Include="Ryu.cpp">
-      <Filter>GameObject\Player</Filter>
+      <Filter>Player</Filter>
     </ClCompile>
     <ClCompile Include="SwordMan.cpp">
       <Filter>GameObject\Enemy</Filter>
@@ -123,7 +115,7 @@
       <Filter>Frameworks</Filter>
     </ClInclude>
     <ClInclude Include="Ryu.h">
-      <Filter>GameObject\Player</Filter>
+      <Filter>Player</Filter>
     </ClInclude>
     <ClInclude Include="SwordMan.h">
       <Filter>GameObject\Enemy</Filter>

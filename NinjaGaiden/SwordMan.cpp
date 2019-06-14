@@ -1,7 +1,7 @@
 #include "SwordMan.h"
 
-#define SPEED_X 0.2f
-#define SPEED_Y 0.35f
+#define SPEED_X 0.1f
+#define SPEED_Y 0.1f
 #define MAX_HEIGHT 250.0f
 
 SwordMan::SwordMan(void) : DynamicObject()

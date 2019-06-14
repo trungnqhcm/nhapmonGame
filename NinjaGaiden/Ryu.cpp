@@ -435,21 +435,6 @@ void Ryu::TurnRight()
 	}
 }
 
-void Ryu::Climb(bool isUp)
-{
-	if (_allowPress)
-	{
-		if (_hasClimb)
-		{
-			if (isUp)
-				vY = SPEED_Y * 0.5;
-			else
-				vY = -(SPEED_Y * 0.5);
-			vX = 0;
-			_action = Action::Climb;
-		}
-	}
-}
 
 void Ryu::Sit()
 {
